@@ -1,3 +1,5 @@
+use std::collections::HashMap;
+
 use crate::solve::{Scanner, Solution};
 
 pub struct Day1Pt1;
