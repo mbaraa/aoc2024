@@ -1,7 +1,9 @@
 use day1::{Day1Pt1, Day1Pt2};
+use day2::{Day2Pt1, Day2Pt2};
 use solve::{Scanner, Solution};
 
 mod day1;
+mod day2;
 mod solve;
 
 fn main() {
@@ -14,6 +16,8 @@ fn main() {
     solution = match day_number {
         1.1 => &Day1Pt1 {},
         1.2 => &Day1Pt2 {},
+        2.1 => &Day2Pt1 {},
+        2.2 => &Day2Pt2 {},
         _ => &Day1Pt1 {},
     };
 
